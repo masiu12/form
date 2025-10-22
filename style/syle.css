@@ -1,0 +1,116 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #5274b3;
+    margin: 16px;
+    
+  }
+  form {
+    max-width: 720px;
+    margin: auto;
+    background: #8d74b1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    
+  }
+  h1 {
+    font-size: 1.1rem;
+    margin: 0 0 12px;
+
+  }
+  .g {
+    color: #100824;
+    margin: 8px 6px;
+  }
+  label {
+    color: #1d0f2f;
+    display: block;
+    margin-bottom: 4px;
+  }
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cfcfd4;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  .acciones {
+    margin-top: 12px;
+  }
+  button {
+    padding: 9px 12px;
+    border: 1px solid #496580;
+    background: #4841ad;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button + button {
+    margin-left: 6px;
+   
+    background: #eef3f9;
+    color: #0b6bcb;
+    border-color: #a7c7ef;
+  }
+@media screen and (min-width: 608px) {
+    body {
+      background-color: rgb(48, 210, 210);
+      color: rgb(214, 194, 194);
+    }
+    h1 {
+        text-align: center;
+        color: rgb(15, 155, 125);
+    }
+    form {
+        color: rgb(45, 17, 17);
+        background-color: #ddd;
+    }
+    label {
+        color: #398aaa;
+    }
+    button {
+        
+        border: 1px solid #035154;
+        background: #2d96a8;
+        color: #fff;
+
+      }
+      button + button {
+        
+        background: #8aa4c3;
+        color: #376590;
+        border-color: #1e60b0;
+      }
+}
+@media screen and (min-width: 992px) {
+    body {
+      background-color: rgb(169, 54, 16);
+      color: rgb(0, 0, 0);
+    }
+    h1 {
+        text-align: left;
+        color: rgb(218, 182, 24);
+    }
+    form {
+        color: rgb(92, 30, 30);
+        background-color: #dd8484;
+    }
+    label {
+        color: #943014;
+    }
+    button {
+        
+        border: 1px solid #803612;
+        background: #d40707;
+        color: #f26c0c;
+
+      }
+      button + button {
+        
+        background: #a2c2e8;
+        color: #738494;
+        border-color: #b0761e;
+      }
+}    
